@@ -2,22 +2,12 @@ import 'package:flutter/material.dart';
 import 'home_page.dart';
 
 class IntroPage extends StatelessWidget{
-  const IntroPage({Key? key}) : super(key: key);
+  const IntroPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      // appBar: AppBar(
-      //   backgroundColor: Color(0xFF2F3645),
-      //   title: const Text(
-      //       'Home Page',
-      //       style: TextStyle(
-      //         color: Colors.white,
-      //       ),
-      //   ),
-      //   centerTitle: true,
-      // ),
+      backgroundColor: Colors.grey[300],
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(25.0),
